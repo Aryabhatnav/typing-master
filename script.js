@@ -1,8 +1,12 @@
 let h = document.querySelector(".ds");
 
 window.addEventListener('keydown', function(dets){
-    if(dets.key===" "){
-        h.textContent += "space"
+
+    if(dets.key === "Backspace"){
+        h.textContent = h.textContent.slice(0,-1);
+    }
+    else if(dets.key===" "){
+        h.textContent += " "
     }
     else{
         h.textContent += dets.key;
@@ -68,3 +72,14 @@ document.addEventListener("keyup",function(event){
         key2.classList.remove("active")
     }
 });
+
+const up = document.querySelector(".upper .ds2")
+
+function l1(){
+    console.log("function chalu hai");
+
+    up.classList.toggle("hhhh")
+    // up.classList.toggle("ds2")
+
+    document.activeElement.blur();
+}

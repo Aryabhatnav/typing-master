@@ -33,8 +33,35 @@ html,body{
 }
 .left{
     width: 15%;
-    background-color: red;   
+    background-color: red; 
+    display: flex;  
+    flex-direction: column;
 }
+
+.btn-lesson{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.lessons{
+    height: 30px;
+    background-color: grey;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+
+.hhhh{
+    height: 100px;
+    width: 630px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 18px;
+    border: 7px solid brown;
+}
+
 .right{
     width: 85%;
     background-color: blue;
@@ -44,11 +71,20 @@ html,body{
     height: 50%;
     background-color: black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.ds2{
+    height: 100px;
+    width: 630px;
+    background-color: khaki;
+    border: 7px solid greenyellow;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
 .screen{
-    height: 270px;
+    height: 100px;
     width: 630px;
     background-color: greenyellow;
     display: flex;
@@ -59,7 +95,7 @@ html,body{
     
 }
 .ds{
-    height: 250px;
+    height: 150px;
     width: 600px;
     overflow-wrap: break-word;
     padding: 5px;
